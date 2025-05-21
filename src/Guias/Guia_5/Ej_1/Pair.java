@@ -4,7 +4,7 @@ public class Pair<E, T> {
     private E first;
     private T second;
 
-    Pair(E first, T second) {
+    public Pair(E first, T second) {
         this.first = first;
         this.second = second;
     }
@@ -13,5 +13,10 @@ public class Pair<E, T> {
     public boolean equals(Object obj) {
         if (!(obj instanceof Pair<?,?> pair)) return false;
         return first.equals(pair.first) && second.equals(pair.second);
+    }
+
+    @Override
+    public String toString() {
+        return "# %s + %s #".formatted(first.toString(), second.toString());
     }
 }
