@@ -11,6 +11,14 @@ public class Pair<E, T> {
         this.second = second;
     }
 
+    public E getFirst() {
+        return first;
+    }
+
+    public T getSecond() {
+        return second;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Pair<?,?> pair)) return false;
