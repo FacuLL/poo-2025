@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/POO.iml" filepath="$PROJECT_DIR$/POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO ruby.iml" filepath="$PROJECT_DIR$/POO ruby.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poo-2025.iml" filepath="$PROJECT_DIR$/poo-2025.iml" />
     </modules>
   </component>
 </project>
